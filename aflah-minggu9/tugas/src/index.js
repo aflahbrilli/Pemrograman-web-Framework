@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import HelloComponent from './component/HelloComponent';
+import StateFullComponent from './container/StateFullComponent';
+import BlogPost from './container/BlogPost/BlogPost';
+
 
 ReactDOM.render(
   <React.StrictMode>
