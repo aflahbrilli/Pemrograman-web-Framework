@@ -41,16 +41,16 @@ class Show extends Component {
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading">
-          <h4><Link to="/">Board List</Link></h4>
+          <h4><Link to="/">List Tabel</Link></h4>
             <h3 class="panel-title">
               {this.state.board.title}
             </h3>
           </div>
           <div class="panel-body">
             <dl>
-              <dt>Description:</dt>
+              <dt>Isi:</dt>
               <dd>{this.state.board.description}</dd>
-              <dt>Author:</dt>
+              <dt>Pembuat:</dt>
               <dd>{this.state.board.author}</dd>
             </dl>
             <Link to={`/edit/${this.state.key}`} class="btn btn-success">Edit</Link>&nbsp;
